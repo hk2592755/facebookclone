@@ -41,7 +41,7 @@
         </x-jet-authentication-card>
           <hr>
           <div class="create-btn">
-            <a href="{{route('welcome')}}" target="_blank">Create New Account</a>
+            <a href="{{route('register')}}" target="_blank">Create New Account</a>
           </div>
         </div>
       </div>

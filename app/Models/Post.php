@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
+    protected $namespace = 'posts';
     use HasFactory;
 
     public function user()
